@@ -3,6 +3,7 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
+
 class Solution:
     def minDepth( root: TreeNode) -> int:
         return Solution.getMinDepth(float('inf'), root, 1)
